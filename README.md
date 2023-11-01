@@ -1,6 +1,6 @@
 # midi test
 
-Some practice with decoding MIDI. Uses Tone.js to synthesize audio.
+Some practice with decoding MIDI. Uses Tone.js to synthesize audio. Gets input from a MIDI device, doesn't work with anything else.
 
 Demo: [https://ko-tori.github.io/midi/](https://ko-tori.github.io/midi/)
 
