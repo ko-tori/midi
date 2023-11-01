@@ -9,6 +9,20 @@
                 margin: 0;
                 overflow: hidden;
             }
+
+            #start {
+                position: absolute;
+                border-radius: 10px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                padding: 100px;
+                background-color: blue;
+                color: white;
+                font: 50px sans-serif;
+                cursor: pointer;
+                user-select: none;
+            }
         </style>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="Tone.js"></script>
@@ -16,6 +30,6 @@
     </head>
     <body>
         <canvas id="canvas"></canvas>
-        <button id="start">Start</button>
+        <div id="start">Start</div>
     </body>
 </html>
